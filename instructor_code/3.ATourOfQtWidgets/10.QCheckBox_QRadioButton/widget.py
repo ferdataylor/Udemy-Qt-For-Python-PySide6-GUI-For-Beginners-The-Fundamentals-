@@ -4,7 +4,7 @@ from PySide6.QtWidgets import QWidget,  QCheckBox, QHBoxLayout, QVBoxLayout, QGr
 class Widget(QWidget):
     def __init__(self):
         super().__init__()
-       
+
         self.setWindowTitle("QCheckBox and QRadioButton")
 
         #Checkboxes : operating system
